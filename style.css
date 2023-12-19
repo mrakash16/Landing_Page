@@ -153,32 +153,27 @@ main hr {
 #about {
     background-color: rgb(28, 38, 77);
     background-image: url('pattern.png');
-    /* Add a background pattern */
     color: white;
 
 }
 
 #about .container {
     max-width: 90vw;
-    /* Set max-width to 90vw for full-width appearance */
     margin: 0 auto;
     text-align: center;
     box-shadow: 0 0 20px rgba(49, 37, 104, 0.2);
     border-radius: 15px;
-    /* Add more rounded corners */
     padding: 3em;
 }
 
 #about h2 {
     font-size: 3em;
-    /* Increase font size for emphasis */
     margin-bottom: 1.5em;
     color: #ffcc00;
 }
 
 #about p {
     font-size: 1.3em;
-    /* Increase font size for better readability */
     line-height: 1.8;
     margin-bottom: 1em;
 }
@@ -192,7 +187,6 @@ main hr {
     width: 100%;
     height: 100%;
     background: linear-gradient(45deg, #4a90e2, #bb77d6);
-    /* Add a gradient overlay */
     opacity: 0.5;
     z-index: -1;
 }
